@@ -2,7 +2,9 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
@@ -58,16 +60,18 @@
                 <nav class="navbar navbar-default">
                     <div class="row">
                         <div class="col-md-12 main-nav">
-                            <ul class="nav text-center">
-                                <li><a href="index.html"><span>Главная</span></a></li>
-                                <li><a href="services.html">Мастер-классы</a></li>
-                                <li class="active"><a href="blog.html">Блог</a></li>
-                                <!--<div class="fh5co-navbar-brand"></div>-->
-                                <li><a href="index.html"><img src="images/felted.png" alt="image"></a></li>
-                                <li><a href="product.html">Готовые изделия</a></li>
-                                <li><a href="about.html">О нас</a></li>
-                                <li><a href="contact.html">Контакт</a></li>
-                            </ul>
+                            <div class="main-nav" id="myfunction">
+                                <ul class="nav text-center">
+                                    <li><a href="index.html"><span>Главная</span></a></li>
+                                    <li><a href="services.html">Мастер-классы</a></li>
+                                    <li class="active"><a href="blog.html">Блог</a></li>
+                                    <li><a href="index.html"><img src="images/felted.png" alt="image"></a></li>
+                                    <li><a href="product.html">Готовые изделия</a></li>
+                                    <li><a href="about.html">О нас</a></li>
+                                    <li><a href="contact.html">Контакт</a></li>
+                                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -105,24 +109,19 @@
                 <div id="footer" class="fh5co-border-line">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
-                                <a href="index.html"><img src="images/felted.png" alt="image"></a>
-                            </div>
-                            <div class="col-md-4">
-                                <ul class="list-unstyled">
-                                    <li><a href="index.html"><span>Главная</span></a></li>
-                                    <li><a href="services.html">Мастер-классы</a></li>
-                                    <li><a href="blog.html">Блог</a></li>
-                                    <li><a href="product.html">Готовые изделия</a></li>
-                                    <li><a href="about.html">О нас</a></li>
-                                    <li><a href="contact.html">Контакт</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <p class="fh5co-social-icons">
-                                    <a href="https://www.facebook.com/feltedfairytale/"><i class="icon-facebook-with-circle"></i></a>
-                                    <a href="#"><i class="icon-instagram-with-circle"></i></a>
-                                </p>
+                            <div class="col-md-12 main-nav">
+                                <div class="main-nav" id="myfunction">
+                                    <ul class="nav text-center">
+                                        <li class="active"><a href="index.html"><span>Главная</span></a></li>
+                                        <li><a href="services.html">Мастер-классы</a></li>
+                                        <li><a href="blog.html">Блог</a></li>
+                                        <li><a href="index.html"><img src="images/felted.png" alt="image"></a></li>
+                                        <li><a href="product.html">Готовые изделия</a></li>
+                                        <li><a href="about.html">О нас</a></li>
+                                        <li><a href="contact.html">Контакт</a></li>
+                                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
@@ -156,5 +155,5 @@
     <script src="js/main.js"></script>
 
 </body>
-</html>
 
+</html>
