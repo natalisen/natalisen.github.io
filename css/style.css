@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .owl-carousel {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 
 /* Owl Override Style */
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section,
 #fh5co-blog-section, #fh5co-section, .about-section {
-  padding-top: 4em;
+  padding-top: 1em;
   margin: 0 auto 5em;
 }
 
@@ -693,7 +693,7 @@ input[type="text"] {
 }
 
 .heading-section {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .heading-section h3 {
   font-size: 20px;
