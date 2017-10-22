@@ -1,3 +1,25 @@
+@media screen and (max-width: 380px) {
+    #fh5co-section .first-workshop a {
+        padding-left: 1em;
+    }
+    .about-btn a{
+        font-size: 10px;
+    }
+    #fh5co-section .container-fluid .first-workshop {
+        margin: 1em 1em 4em;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    #fh5co-section h1{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        font-size: 22px;
+    }
+    #fh5co-section .first-workshop {
+        margin: 1em 1em;
+    }
+}
 @media screen and (max-width: 768px) {
   .owl-carousel-posts .owl-controls .owl-nav .owl-next {
     right: 0px;
@@ -21,11 +43,52 @@
     padding-bottom: 3em;
   }
 */
+@media screen and (max-width: 679px) {
+    #fh5co-section .about-btn .btn{
+        margin: 0 auto 2em;
+    }
+   
+    #fh5co-product-section .product-section h3{ 
+        padding-left: 1em;
+    }
+    #fh5co-blog-section .pagination{
+        padding-right: 1em;
+    }
+    /*#fh5co-intro-section .fh5co-intro-cover{
+        height: 5em;
+        padding: 3em;
+    }*/
+    .fh5co-intro-cover{
+        padding: 3em;
+    }
+    #footer {
+        padding: 20px 0 10px;
+    }
+    
+    #footer .mobile-footer div:not(:nth-last-child(1)){
+        display: none;
+        
+    }
+    #footer .mobile-footer div:nth-last-child(1){
+        width: 100%;
+    }
+    
+    #footer .fh5co-social-icons i{
+        font-size: 5em;      
+    }
+
+}
 @media screen and (max-width: 768px) {
+    #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section, #fh5co-blog-section, #fh5co-section, .about-section {
+        padding-top: 5px;
+    }
   .fh5co-intro-cover a.btn {
-    padding: 15px 25px;
+    padding: 15px 30px;
     font-size: 16px;
   }
+    #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section, #fh5co-blog-section, #fh5co-section, .about-section{ 
+        margin: 0 auto 1em;
+    }
 }
 @media screen and (max-width: 768px) {
   .about-section img.display-right {
@@ -40,6 +103,9 @@
   }
 }
 @media screen and (max-width: 992px) {
+    #fh5co-section .first-workshop {
+        margin: 1em 1em 13em;
+    }
   #fh5co-blog-section .blog-inner .desc {
     margin-top: 0;
   }
@@ -78,7 +144,14 @@
   }
 
 }
+@media screen and (max-width: 879px) {
+    #fh5co-contact-section .container{
+        width: 90%;
+        margin: 1em auto;
+    }
+}
 @media screen and (max-width: 991px) {
+    
     #fh5co-header .nav li:not(:nth-child(4)){
         display: none;
     }
@@ -91,6 +164,9 @@
       margin-left: 0;
       padding-right: 0px;
     }*/
+    .box-wrap{
+        width: 100%;
+    }
 }
     
 @media screen and (max-width: 991px) {
@@ -107,8 +183,39 @@
     right: 0;
     top: 0;
   }
-}
 
+}
+@media screen and (max-width: 991px) {
+    #fh5co-section .first-workshop {
+        height: 600px;
+    }
+    #fh5co-section .first-workshop .desc{
+        margin-bottom: 1em;
+    }
+     #fh5co-section .first-workshop .btn {
+         margin-left: auto;
+         margin-right: auto;
+    }
+    #fh5co-section .first-workshop img{
+        width: 150%;
+    }
+    .fh5co-inner .holder-section {
+        height: 150px;
+    }
+    .fh5co-inner .fh5co-services {
+        margin-left: auto;
+        margin-right: auto;
+}
+    #fh5co-blog-section .blog-inner {
+      margin-bottom: 2em;
+      margin-top: 0.5em;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .box-wrap{
+        width: 101%;
+    }
+}
 @media screen and (max-width: 1199px) {
   #fh5co-header .nav li{
     margin-left: 10px;

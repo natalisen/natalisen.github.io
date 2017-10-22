@@ -203,4 +203,13 @@
 
 }());
 
+function myFunction() {
+    var x = document.getElementById("myfunction");
+    if (x.className === "main-nav") {
+        x.className += " mob";
+    } else {
+        x.className = "main-nav";
+    }
+}
+
 

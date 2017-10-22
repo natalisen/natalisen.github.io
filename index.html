@@ -58,7 +58,7 @@
             <div class="container">
                 <nav class="navbar navbar-default">
                     <div class="row">
-                        <div class="col-md-12 main-nav">
+                        <div class="col-md-12">
                         <div class="main-nav" id="myfunction">
                             <ul class="nav text-center" >
                                 <li class="active"><a href="index.html"><span>Главная</span></a></li>
@@ -94,9 +94,9 @@
                 </div>
                 <div class="row">
                     <div class="col-md-7 animate-box">
-                        <div class="fh5co-cover" style="background-image: url(images/tapki.jpg);">
+                        <div class="fh5co-cover container-fluid" style="background-image: url(images/tapki.jpg);">
                             <div class="desc">
-                                <a href="service.html"><p>22.08.2017 Мастер-класс "<b>Привлекательные тапочки</b>"</p></a>
+                                <a href="services.html"><p>22.08.2017 Мастер-класс "<b>Привлекательные тапочки</b>"</p></a>
                                 <!--<span>Web Design</span>-->
                             </div>
                         </div>
@@ -106,21 +106,21 @@
                             <div class="fh5co-cover-hero animate-box">
                                 <div class="fh5co-cover-thumb" style="background-image: url(images/perchatki.jpg);"></div>
                                 <div class="desc-thumb">
-                                    <p>02.09.2017 Мастер-класс "<b>Зимние перчатки</b>"</p>
+                                    <a href="services.html"><p>02.09.2017 Мастер-класс "<b>Зимние перчатки</b>"</p></a>
                                     <!--									<span>Web Design</span>-->
                                 </div>
                             </div>
                             <div class="fh5co-cover-hero animate-box">
                                 <div class="fh5co-cover-thumb" style="background-image: url(images/toy.jpg);"></div>
                                 <div class="desc-thumb">
-                                    <p>23.09.2017 Мастер-класс "<b>Удивительные детские игрушки</b>"</p>
+                                    <a href="services.html"><p>23.09.2017 Мастер-класс "<b>Удивительные детские игрушки</b>"</p></a>
                                     <!--									<span>User Experience</span>-->
                                 </div>
                             </div>
                             <div class="fh5co-cover-hero animate-box">
                                 <div class="fh5co-cover-thumb" style="background-image: url(images/tapki2.jpg);"></div>
                                 <div class="desc-thumb">
-                                    <p>21.06.2017 Мастер-класс "<b>Веселые банные шапочки</b>"</p>
+                                    <a href="services.html"><p>21.06.2017 Мастер-класс "<b>Веселые банные шапочки</b>"</p></a>
                                     <!--									<span>Web Developement</span>-->
                                 </div>
                             </div>
@@ -129,9 +129,9 @@
                 </div>
             </div>
             <!-- END fh5co-media-section -->
-            <div id="fh5co-intro-section">
+            <div id="fh5co-intro-section container-fluid">
                 <div class="fh5co-intro-cover text-center animate-box" data-animate-effect="fadeIn" data-stellar-background-ratio="0.5" style="background-image: url(images/intro.jpg);">
-                    <a href="services.html" class="btn">Перейти к разделу мастер-классы</a>
+                    <a href="services.html" class="btn btn-md btn-sm">Перейти к разделу мастер-классы</a>
                 </div>
             </div>
             <!-- END fh5co-intro-section -->
@@ -155,14 +155,16 @@
                     </div>
                 </div>
             </div>
+            </div>
             <footer>
                 <div id="footer" class="fh5co-border-line">
-                    <div class="container">
+                    <div class="container container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
+                           <div class="mobile-footer">
+                            <div class="col-xs-4 col-sm-4 col-md-4">
                                 <a href="index.html"><img src="images/felted.png" alt="image"></a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xs-4 col-sm-4 col-md-4">
                                 <ul class="list-unstyled">
                                     <li><a href="index.html"><span>Главная</span></a></li>
                                     <li><a href="services.html">Мастер-классы</a></li>
@@ -172,12 +174,13 @@
                                     <li><a href="contact.html">Контакт</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xs-3 col-sm-3 col-md-4">
                                 <p class="fh5co-social-icons">
                                     <a href="https://www.facebook.com/feltedfairytale/"><i class="icon-facebook-with-circle"></i></a>
                                     <a href="#"><i class="icon-instagram-with-circle"></i></a>
                                 </p>
                             </div>
+                        </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-center">
@@ -189,7 +192,6 @@
                     </div>
                 </div>
             </footer>
-        </div>
     </div>
     <!-- END: box-wrap -->
     <!-- jQuery -->
@@ -206,16 +208,7 @@
     <script src="js/jquery.stellar.min.js"></script>
     <!-- Main JS (Do not remove) -->
     <script src="js/main.js"></script>
-    <script>
-    function myFunction() {
-    var x = document.getElementById("myfunction");
-    if (x.className === "main-nav") {
-        x.className += " mob";
-    } else {
-        x.className = "main-nav";
-    }
-}
-        </script>
+
 </body>
 
 </html>

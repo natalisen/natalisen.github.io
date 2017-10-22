@@ -114,9 +114,9 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
     font-size: 30px;
 }
-#fh5co-header .nav li:first-child {
+/*#fh5co-header .nav li:first-child {
       margin-left: 0;
-}
+}*/
 
 #fh5co-header .nav li a {
   font-family: "Open Sans", Arial, serif;
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section,
 #fh5co-blog-section, #fh5co-section, .about-section {
-  padding-top: 1em;
+  padding-top: 2em;
   margin: 0 auto 5em;
 }
 
@@ -631,7 +631,9 @@ ba
     width: 50%;
     margin: 3em auto;
 }
-
+#fh5co-contact-section .btn {
+    margin: 0 auto;
+}
 
 
 .form-control {
@@ -784,7 +786,7 @@ input[type="text"] {
    border-radius: 1%;
 }
 .first-workshop .desc{
-  width: 150%;     
+  text-align: justify;
 }
 .desc h3{
   font-size: 20px;
@@ -806,7 +808,6 @@ input[type="text"] {
 .desc a{
     text-decoration: none !important;
     margin-top: 30px;
-    margin-left: 10px;
 }
 
 #fh5co-section h1{
@@ -818,3 +819,6 @@ input[type="text"] {
 .avatar{
     float: right;
 }
+
+
+
