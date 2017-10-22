@@ -8,7 +8,6 @@
     #fh5co-section .container-fluid .first-workshop {
         margin: 1em 1em 4em;
     }
-
 }
 @media screen and (max-width: 480px) {
     #fh5co-section h1{
@@ -19,6 +18,7 @@
     #fh5co-section .first-workshop {
         margin: 1em 1em;
     }
+
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-posts .owl-controls .owl-nav .owl-next {
