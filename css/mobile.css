@@ -244,15 +244,14 @@
     #fh5co-header .main-nav .icon {
         display: inline-block;
         float: right;
-        padding-right: 2em;
     }
     /*#fh5co-header .nav li {
       margin-left: 0;
       padding-right: 0px;
-    }*/
+    }
     .box-wrap{
         width: 100%;
-    }
+    }*/
 }
     
 @media screen and (max-width: 991px) {
