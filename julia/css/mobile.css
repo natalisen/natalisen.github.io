@@ -45,7 +45,7 @@
 		display: none;
 	}
 
-	
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -55,13 +55,13 @@
 	.tech_service {
 		display: none;
 	}
-	.wella img{
+	.wella img {
 		margin-top: 2em;
 	}
-	.contact_descr h1{
+	.contact_descr h1 {
 		font-size: 1.5em;
 	}
-	.contact_img img{
+	.contact_img img {
 		width: 15em;
 	}
 }
@@ -71,6 +71,10 @@
 @media only screen and (max-width: 530px) {
 	.service_img img:nth-child(2) {
 		margin-right: 2em;
+	}
+	.section_content {
+		margin-top: 1em;
+		padding-bottom: 1em;
 	}
 }
 
@@ -92,22 +96,27 @@
 
 /* Custom, iPhone Retina */
 
-@media only screen and (min-width: 320px) and (max-width: 470px){
-.contact_descr h1{
+@media only screen and (min-width: 320px) and (max-width: 470px) {
+	.contact_descr h1 {
 		font-size: 1.2em;
 	}
-	#contact .section_content{
+	#contact .section_content {
 		margin-bottom: 0em;
 	}
-}
-@media only screen and (min-width: 320px) and (max-width: 400px){
-	.top_text h1{
-		font-size: 4em; 
-	}
-	.top_text h3{
-		font-size: 1.8em; 
+	.arrow {
+		padding-top: 0;
 	}
 }
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+	.top_text h1 {
+		font-size: 4em;
+	}
+	.top_text h3 {
+		font-size: 1.8em;
+	}
+}
+
 @media only screen and (max-width: 470px) {
 	.caption h1 {
 		font-size: 6em;
@@ -115,13 +124,13 @@
 	.caption h2 {
 		top: 1em;
 	}
-	.contact_img img{
+	.contact_img img {
 		width: 10em;
 	}
 	/*.contact_descr h1{
 		font-size: 1.2em;
 	}*/
-	#contact .contact_descr{
+	#contact .contact_descr {
 		padding: 1em;
 	}
 }
@@ -130,9 +139,7 @@
 @media only screen and (min-width: 768px) {}
 
 
-@media only screen and (min-width: 990px) and (max-width: 1072px) {
-
-}
+@media only screen and (min-width: 990px) and (max-width: 1072px) {}
 
 @media only screen and (min-width: 990px) {}
 

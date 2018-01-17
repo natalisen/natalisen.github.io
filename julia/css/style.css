@@ -15,7 +15,7 @@ body {
 }
 
 section{
-	min-height: 30em;
+	min-height: 20em;
 }
 .bg-dark{
 	background-color: rgba(222, 188, 179, 0.26);
@@ -519,7 +519,7 @@ section{
 	top: -1px;
 	left: -1px;
 	width: 0px;
-	height: 32px;
+	height: 33px;
 	z-index: -1;
 	background-color: #EF91AC;
 	transition: all 1s ease;
