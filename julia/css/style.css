@@ -589,13 +589,13 @@ section {
 
 .instagram_feed img:first-child {
 	width: 15em;
-	z-index: 100;
+	z-index: 1;
 	transform: translateX(2em);
 }
 
 .instagram_feed img:nth-child(2) {
 	width: 22em;
-	z-index: 200;
+	z-index: 2;
 	animation-delay: 0.2s;
 	-webkit-animation-delay: 0.2s;
 	-moz-animation-delay: 0.2s;
@@ -604,6 +604,7 @@ section {
 
 .instagram_feed img:nth-child(3) {
 	width: 16em;
+	z-index: 3;
 	transform: translateX(4em) translateY(5em);
 	animation-delay: 0.4s;
 	-webkit-animation-delay: 0.4s;
@@ -613,6 +614,7 @@ section {
 
 .instagram_feed img:nth-child(4) {
 	width: 18em;
+	z-index: 4;
 	margin-left: 2em;
 	margin-bottom: 3em;
 	animation-delay: 0.6s;
@@ -620,13 +622,18 @@ section {
 	-moz-animation-delay: 0.6s;
 	-o-animation-delay: 0.6s;
 }
+.owl-carousel {
+	z-index: 0!important;
+}
 
 .owl-carousel .owl-item {
 	display: none;
+	z-index: 10;
 }
 
 div.owl-item {
 	opacity: 0.5;
+	z-index: 10;
 }
 
 div.owl-item.active {
@@ -701,11 +708,6 @@ footer {
 	margin-right: 5em;
 }
 
-
-
-@media only screen and (max-width: 1200px) {}
-
-
 @media only screen and (max-width: 992px) {
 	.caption {
 		margin-left: 2%;
@@ -729,7 +731,6 @@ footer {
 	}
 	.avatar img {
 		width: 50%;
-
 	}
 	.avatar {
 		text-align: center;
@@ -744,8 +745,9 @@ footer {
 	.instagram_feed {
 		display: none;
 	}
-
-
+	.subscribe_btn {
+	padding-right: 0;
+	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -766,7 +768,6 @@ footer {
 	}
 }
 
-
 @media only screen and (max-width: 531px) {
 	.service_img img:nth-child(2) {
 		margin-right: 2em;
@@ -785,7 +786,6 @@ footer {
 	.caption h2 {
 		top: 1.9em;
 	}
-	
 }
 
 @media only screen and (min-width: 320px) and (max-width: 470px) {
@@ -830,6 +830,24 @@ footer {
 	#contact .contact_descr {
 		padding: 1em;
 	}
+}
+
+@media only screen and (max-width: 1320px) {
+.instagram_feed img:first-child {
+	transform: translateX(-1em);
+}
+.instagram_feed img:nth-child(2) {
+	transform: translateX(-3em);
+}
+
+.instagram_feed img:nth-child(3) {
+	transform: translateX(-3em) translateY(5em);
+}
+
+.instagram_feed img:nth-child(4) {
+	margin-left: -5em;
+}
+
 }
 
 #loading {
